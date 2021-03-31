@@ -1,0 +1,202 @@
+	body
+	{
+		font-family: Verdana;
+	}
+.container
+	{
+		width: 1040px;
+		margin: 0 auto;
+		padding: 0;
+	}
+	nav, ul, .flex
+	{
+		display: flex;
+		list-style: none;
+		padding:0;
+	}
+	.logo
+	{
+		margin-right: 62px;
+	}
+	.menu 
+	{
+		width: 600px;
+	}
+	.menu li
+	{
+		margin-right: 30px;
+	}
+	.right li 
+	{
+		margin-right: 0px;
+		margin-left: 25px;
+	}
+	.stolb
+	{
+		width: 250px;
+		margin-top: 120px;
+		margin-left: 125px;
+		
+	}
+	.raketa
+	{
+		margin-top: 70px;
+		margin-left: 140px;
+		width:438px;
+		height:559px;
+	}
+	header
+	{
+		background: #222222;
+		color: #D4D4D4;
+	}
+	.col 
+	{
+		flex-direction: column;
+	}
+	.c4
+	{
+		margin-left: 79px;
+		margin-bottom: 52px;
+	}
+	.c1
+	{
+		width: 440px;
+		flex-shrink: 0;
+	}
+	header h1
+	{
+		font-family: Courier New;
+		color: FFFFFF;
+		font-size: 44px;
+		font-weight: bold;
+	}
+	a
+	{
+		color: #D4D4D4;
+		text-decoration: none;
+	}
+	a:hover
+	{
+		color: #FFCB06;
+	}
+	a:active
+	{
+		color: #ffffff;
+	}
+	h1, h3
+	{
+		font-family: Courier New;
+	}
+	.button
+	{
+		color: #000000;
+		background-color: #FFCB06;
+		border-radius: 25px;
+		padding-left: 38px;
+		padding-top: 17px;
+		display: block;
+		height: 33px;
+	
+	}
+	.black
+	{
+		background-color: #131313;
+		color: #D4D4D4;
+		padding: 30px;
+	}
+	.foot
+	{
+		background-color: #131313;
+		list-style: none;
+	
+	}
+	.prava
+	{
+		color: #555555;
+
+	}
+	.ser
+	{
+		color: #888888;
+		
+	}
+	.recommendations-list li
+	{
+		position: relative;
+	
+	}
+	.recommendations-list li::before 
+	{
+		content: "";
+		width: 10px;
+		height: 10px;
+		background-color: #FFCB06;
+		display: block;
+		position: absolute;
+		left: -30px;
+		top: 5px;
+		border-radius: 50%;
+	}
+	.f1
+	{
+		width: 980px;
+		display: flex;
+	}
+	.f1 ul
+	{
+	justify-content: space-around;
+	margin-top: 60px;
+
+	}
+	.f1 ul ul 
+	{
+		margin-top: 72px;
+		}
+	.f1 ul ul li
+	{
+		margin-top: 20px;
+	}
+	.niz
+	{
+		width:300px;
+	}
+	.aa
+	{
+	width: 500px; 
+	}
+	.lol
+	{
+	width: 63px;
+	height: 93px;
+	left: 419px;
+	top: 177px;
+	}
+	.lol1
+	{
+	width: 91px;
+	height: 93px;
+	left: 679px;
+	top: 177px;
+	}
+	.lol2
+	{
+	width: 160px;
+	height: 93px;
+	left: 938px;
+	top: 177px;
+	}
+	h6
+	{
+		display:none;
+	}
+.button:hover
+{
+	color: red;
+	background-color: #FFFFFF;
+	font-weight: bold;
+}
+.map
+{
+	margin-top:80px;
+}
